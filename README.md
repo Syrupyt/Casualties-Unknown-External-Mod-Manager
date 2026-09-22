@@ -101,3 +101,12 @@ Lastly, there is deleting a preset. Simple as it gets; select the preset you wan
 Note: Will not be able to delete the Default Preset. Doing so would break my already messy ass code, so I simply made it impossible instead of fixing it.
 
 
+# For Developers
+
+I severely apologize for my downright disgusting code. I got lost halfway through but the bones I built at the start got me through the confusion, for a little while.
+If you have any questions, ask away. And any bugs goes to the Issues tab.
+Also, the behavior of the manager for discovering mods is NOT recursive; what this means to non-developers is that instead of looking in folders for mod files, CUMMgr simply takes the whole folder that the mod resides in. Prevents issues like missing assets and stuffs, and some mods require a folder environment to run. While it's an easy solution, it can make it hard to find out what certain mods are; for example, the Assets folder in my CUMMgr modlist is for CUResprite.dll
+
+# Known Windows/Linux Scrolling Bug
+On Linux, there simply is no way to scroll on scrollable menus. As a linux main, I feel your x11 pain.
+On windows (at least on the install I'm using, Windows 10) has a very odd bug, where it does allow you to scroll but with odd visual artifacts to boot. Nothing crazy or damaging, but can be annoying when scrolling through a lot of mods.
