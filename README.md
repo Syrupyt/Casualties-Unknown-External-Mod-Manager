@@ -1,5 +1,5 @@
 # Casualties-Unknown-External-Mod-Manager
-An externally managed mod manager for the game Casualties Unknown. Looks in the Plugins folder for Bepinex for mods and modfolders, and creates an info.json and a unusedMods folder for disabled mods. Has a feature for organizing mods, defining them, and customizable presets
+An externally managed mod manager for the game Casualties Unknown. Can work with <ins>most</ins> Bepinex-supported games, as long as they have a Plugins folder. Looks in the Plugins folder for Bepinex for mods and modfolders, and creates an info.json and a unusedMods folder for disabled mods. Has a feature for organizing mods, defining them, and customizable presets
 
 # Setup:
 Simply drop your Operating system's CUMMgr file into the Bepinex folder (NOT the plugins folder) and run! It's as simple as that. When you first run it, it will create two to three files; a plugins (if it doesn't exist yet) and unusedPlugins folder, and an info.json savedata file. Here should be what you first see, if you have some mods already installed!
